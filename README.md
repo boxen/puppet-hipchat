@@ -1,3 +1,6 @@
+[![Build
+Status](https://travis-ci.org/boxen/puppet-hipchat.png?branch=master)](https://travis-ci.org/boxen/puppet-hipchat)
+
 # HipChat for Mac
 
 ## Usage
