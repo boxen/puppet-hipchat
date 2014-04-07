@@ -5,7 +5,7 @@ describe 'hipchat' do
     should contain_class('hipchat')
     should contain_package('HipChat').with({
       :provider => 'compressed_app',
-      :source   => 'http://downloads.hipchat.com.s3.amazonaws.com/osx/HipChat-2.4.zip'
+      :source   => 'https://s3.amazonaws.com/uploads.hipchat.com/10804/83133/PII7uW7gugtp5mf/HipChat.zip'
     })
   end
 end
