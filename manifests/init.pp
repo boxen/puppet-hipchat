@@ -6,6 +6,7 @@
 class hipchat {
   package { 'HipChat':
     provider => 'compressed_app',
-    source   => 'http://downloads.hipchat.com.s3.amazonaws.com/osx/HipChat-2.5.4-83.zip'
+    source   => 'https://www.hipchat.com/downloads/latest/mac',
+    flavor   => 'zip',
   }
 }
